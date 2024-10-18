@@ -10,7 +10,8 @@ const Blog = () => {
     console.log("useEffect is running");
 
     // Fetching data from the local API
-    fetch('http://localhost:3000/api/blogs')
+    // fetch('http://localhost:3000/api/blogs')
+    fetch('https://hunting-coder-omega.vercel.app//api/blogs')
       .then((response) => response.json()) // Convert the response to JSON
       .then((data) => {
         console.log(data); // Log the fetched data on console...
