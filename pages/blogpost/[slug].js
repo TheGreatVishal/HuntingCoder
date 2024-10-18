@@ -14,7 +14,7 @@ const Slug = () => {
 
     // Fetch the blog data based on the slug
     // fetch(`http://localhost:3000/api/getblog?slug=${slug}`)
-    fetch(`https://hunting-coder-omega.vercel.app//api/getblog?slug=${slug}`)
+    fetch(`https://hunting-coder-omega.vercel.app/api/getblog?slug=${slug}`)
       .then((response) => response.json()) // Convert the response to JSON
       .then((data) => {
         console.log(data); // Log the fetched data to the console
